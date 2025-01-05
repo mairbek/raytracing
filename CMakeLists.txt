@@ -16,7 +16,7 @@ add_library(vec3 INTERFACE)
 # 2) Specify where to find the header (usage requirement)
 target_include_directories(vec3
     INTERFACE
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/vec3.h>
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/>
         $<INSTALL_INTERFACE:include>
 )
 
